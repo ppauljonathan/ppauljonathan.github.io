@@ -1,7 +1,7 @@
 html{scroll-behavior: smooth;background-color: black;}
 body{background-color: black;color:white;}
 #image{
-    background-image: url("http://www.asawicki.info/Download/Gallery/Misc%20Screenshots/Fractals/Sierpinski_Triangle_6.png");
+    background-image: url("Sierpinski_Triangle_6.png");
     background-position: 50%;
     background-size: contain;
     width: 100%;
