@@ -49,11 +49,11 @@ h3{font-size: 30px;}
     float: left;
     text-align: center;
     background-color: black;
-    height: 350px;
+    height: 450px;
     border:1px solid white;
 }
 @media all and (orientation:portrait)
-{.game-window{width: 100%;height:700px;}}
+{.game-window{width: 100%;}}
 #clockface{
     background-color:black;
     width:30vh;
