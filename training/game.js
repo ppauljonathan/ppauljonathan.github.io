@@ -23,7 +23,6 @@ function  move(event)
             p_x+=5;
             break;
         default:
-            gameOver();
             break;
     }
     count++;
