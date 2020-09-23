@@ -1,0 +1,32 @@
+#golbord{position:absolute;
+top:0%;left:0%;
+height:90%;width:100%;}
+#button-holder{
+    position:absolute;
+top:90%;left:0%;
+height:10%;width:100%;
+}
+#gol{background-color:black;
+position:absolute;
+width:80vh;height:80vh;
+top:50%;left:50%;
+transform:translate(-50%,-50%);}
+#play{background-color:#4b0775;
+    width:100px;
+    height:40px;
+    border-radius:5px;
+    border: 2px solid #aaa;
+    color:white;
+    text-align:center;
+    font-size:30px;
+    position:absolute;
+    top:50%;left:50%;
+transform:translate(-50%,-50%);
+    user-select:none;
+}
+#play:active{background-color:#b4f88a;
+color:black;}
+@media all and (orientation:portrait)
+{
+    #gol{width:80vw;height:80vw;}
+}
