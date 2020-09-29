@@ -1,7 +1,7 @@
 html{scroll-behavior: smooth;background-color: black;}
 body{background-color: black;color:white;}
 #image{
-    background-image: url("images/Sierpinski_Triangle_6.png");
+    background-image: linear-gradient(to top,#001 0%,#001 30%,#003,#005,#006 60%);
     background-position: 50%;
     background-size: contain;
     width: 100%;
