@@ -1,9 +1,10 @@
 html{scroll-behavior: smooth;background-color: black;}
 body{background-color: black;color:white;}
 #image{
-    background-image: linear-gradient(to top,#001 0%,#001 30%,#003,#005,#006 60%);
+    background-image: url('images/gol.JPG');
     background-position: 50%;
     background-size: contain;
+    background-repeat: repeat-x;
     width: 100%;
     height:100px;
     position: fixed;
