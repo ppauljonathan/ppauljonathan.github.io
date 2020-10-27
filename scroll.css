@@ -6,6 +6,5 @@
 ::-webkit-scrollbar-thumb
 {
     width: 10px;height: 10px;
-    border-radius: 50%;
     background-image:url('images/Koksgalaxy.png');
 }
