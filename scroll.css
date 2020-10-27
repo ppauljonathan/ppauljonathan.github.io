@@ -6,5 +6,5 @@
 ::-webkit-scrollbar-thumb
 {
     width: 10px;height: 10px;
-    background-image:url('images/Koksgalaxy.png');
+    background-color: #777;
 }
