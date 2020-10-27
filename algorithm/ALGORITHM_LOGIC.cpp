@@ -1,3 +1,4 @@
+//THIS IS NOT USED IN THE CODE I HAD MADE THIS FOR MY UNDERSTANDING ONLY
 #include<iostream>
 using namespace std;
 int x,y,a,b;
