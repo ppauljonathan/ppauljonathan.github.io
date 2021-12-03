@@ -7,7 +7,7 @@ ctx=canvas.getContext("2d");
 ctx.fillStyle="black";
 ctx.fillRect(0,0,cansize,cansize);
 
-const noOfBodies=3;
+const noOfBodies=prompt("enter the no of objects to simulate : ",2);
 const big_g=10000;
 
 function de(x,y){
