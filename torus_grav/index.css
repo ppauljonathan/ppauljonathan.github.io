@@ -1,0 +1,19 @@
+body{
+    background:#222;
+}
+canvas{
+    width:90vmin;
+    height:90vmin;
+    position:absolute;
+    left:50%;top:50%;
+    transform:translate(-50%,-50%);
+}
+button{
+    background:purple;
+    color:white;
+    padding:5px;
+    visibility:hidden;
+    position:absolute;
+    left:50%;top:50%;
+    transform:translate(-50%,-50%);
+}
