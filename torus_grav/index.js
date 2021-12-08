@@ -68,10 +68,10 @@ class Body{
         drawCircle(this.x,this.y,this.m*3,this.color);
     }
     flatTorus(){
-        if(this.x<0){this.x=cansize;}
-        else if(this.x>cansize){this.x=0;}
-        else if(this.y<0){this.y=cansize;}
-        else if(this.y>cansize){this.y=0;}
+        if(this.x<0){this.x=cansize+this.x;}
+        else if(this.x>cansize){this.x=cansize-this.x;}
+        else if(this.y<0){this.y=cansize+this.y;}
+        else if(this.y>cansize){this.y=cansize-this.y;}
     }
 }
 
