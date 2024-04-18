@@ -12,7 +12,7 @@ const big_g=10000;
 
 function de(x,y){
     l=x-y;
-    r=-y+x;
+    r=cansize-y+x;
     return Math.min(l,r);
 }
 
